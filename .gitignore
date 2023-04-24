@@ -11,3 +11,4 @@ pyvenv.cfg
 identifier.sqlite
 cert.crt
 cert.key
+/media/
