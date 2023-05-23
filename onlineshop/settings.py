@@ -1,4 +1,5 @@
 import os
+from django.utils.translation import gettext_lazy as _
 from pathlib import Path
 from dotenv import load_dotenv
 
@@ -112,9 +113,9 @@ AUTH_PASSWORD_VALIDATORS = [
 LANGUAGE_CODE = 'en'
 
 LANGUAGES = [
-    ('en', 'English'),
-    ('ru', 'Russian'),
-    ('es', 'Spanish'),
+    ('en', _('English')),
+    ('ru', _('Russian')),
+    ('es', _('Spanish')),
 ]
 
 LOCALE_PATHS = [
