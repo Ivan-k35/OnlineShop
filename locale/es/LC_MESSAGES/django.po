@@ -21,44 +21,44 @@ msgstr ""
 #: .\cart\forms.py:9 .\cart\templates\cart\detail.html:16
 #: .\payment\templates\payment\process.html:15
 msgid "Quantity"
-msgstr ""
+msgstr "Cantidad"
 
 #: .\cart\templates\cart\detail.html:6 .\cart\templates\cart\detail.html:10
 msgid "Your shopping cart"
-msgstr ""
+msgstr "Su carro"
 
 #: .\cart\templates\cart\detail.html:14
 #: .\env\onlineshop\Lib\site-packages\django\db\models\fields\files.py:393
 #: .\payment\templates\payment\process.html:12
 msgid "Image"
-msgstr ""
+msgstr "Imagen"
 
 #: .\cart\templates\cart\detail.html:15
 #: .\payment\templates\payment\process.html:13
 msgid "Product"
-msgstr ""
+msgstr "Producto"
 
 #: .\cart\templates\cart\detail.html:17 .\cart\templates\cart\detail.html:44
 msgid "Remove"
-msgstr ""
+msgstr "Eliminar"
 
 #: .\cart\templates\cart\detail.html:18
 msgid "Unit price"
-msgstr ""
+msgstr "Precio unitario"
 
 #: .\cart\templates\cart\detail.html:19
 #: .\payment\templates\payment\process.html:14
 msgid "Price"
-msgstr ""
+msgstr "Precio"
 
 #: .\cart\templates\cart\detail.html:37
 msgid "Update"
-msgstr ""
+msgstr "Actualizar"
 
 #: .\cart\templates\cart\detail.html:55
 #: .\payment\templates\payment\process.html:34
 msgid "Subtotal"
-msgstr ""
+msgstr "Subtotal"
 
 #: .\cart\templates\cart\detail.html:61
 #, python-format
@@ -67,37 +67,39 @@ msgid ""
 "                        \"%(code)s\" coupon (%(discount)s%% off)\n"
 "                    "
 msgstr ""
-
+"\n"
+"              Cupón \"%(code)s\" (%(discount)s%% descuento)\n"
+"            "
 #: .\cart\templates\cart\detail.html:70
 #: .\payment\templates\payment\process.html:16
 #: .\payment\templates\payment\process.html:46
 msgid "Total"
-msgstr ""
+msgstr "Total"
 
 #: .\cart\templates\cart\detail.html:78
 #: .\shop\templates\shop\product\detail.html:26
 msgid "People who bought this also bought"
-msgstr ""
+msgstr "Personas que compraron esto también compraron"
 
 #: .\cart\templates\cart\detail.html:90
 msgid "Apply coupon"
-msgstr ""
+msgstr "Aplicar cupón"
 
 #: .\cart\templates\cart\detail.html:93
 msgid "Apply"
-msgstr ""
+msgstr "Aplicar"
 
 #: .\cart\templates\cart\detail.html:98
 msgid "Continue shopping"
-msgstr ""
+msgstr "Continuar comprando"
 
 #: .\cart\templates\cart\detail.html:101
 msgid "Checkout"
-msgstr ""
+msgstr "Comprar"
 
 #: .\coupons\forms.py:6
 msgid "Coupon"
-msgstr ""
+msgstr "Cupón"
 
 #: .\env\onlineshop\Lib\site-packages\click\_termui_impl.py:496
 #, python-brace-format
@@ -1725,47 +1727,47 @@ msgstr "Español"
 
 #: .\payment\templates\payment\canceled.html:4
 msgid "Payment canceled"
-msgstr ""
+msgstr "Pago cancelado"
 
 #: .\payment\templates\payment\canceled.html:7
 msgid "Your payment has not been processed"
-msgstr ""
+msgstr "Su pago no ha sido procesado"
 
 #: .\payment\templates\payment\canceled.html:8
 msgid "There was a problem processing your payment"
-msgstr ""
+msgstr "Ha habido un problema con el procesamiento del pago."
 
 #: .\payment\templates\payment\completed.html:4
 msgid "Payment successful"
-msgstr ""
+msgstr "Pago realizado"
 
 #: .\payment\templates\payment\completed.html:7
 msgid "Your payment was successful"
-msgstr ""
+msgstr "Su pago ha sido realizado"
 
 #: .\payment\templates\payment\completed.html:8
 msgid "Your payment has been processed successfully"
-msgstr ""
+msgstr "Su pago se ha procesado correctamente."
 
 #: .\payment\templates\payment\process.html:5
 msgid "Pay your order"
-msgstr ""
+msgstr "Pague su compra"
 
 #: .\payment\templates\payment\process.html:8
 msgid "Order summary"
-msgstr ""
+msgstr "Resumen de compra"
 
 #: .\payment\templates\payment\process.html:53
 msgid "Pay now"
-msgstr ""
+msgstr "Pagar ahora"
 
 #: .\shop\templates\shop\base.html:12
 msgid "Online shop"
-msgstr ""
+msgstr "Tienda online"
 
 #: .\shop\templates\shop\base.html:18
 msgid "Your card"
-msgstr ""
+msgstr "Su carro"
 
 #: .\shop\templates\shop\base.html:20
 #, python-format
@@ -1778,25 +1780,31 @@ msgid_plural ""
 "                        %(items)s items, $%(total)s\n"
 "                    "
 msgstr[0] ""
+"\n"
+"                %(items)s producto, $%(total)s\n"
+"              "
 msgstr[1] ""
+"\n"
+"                %(items)s productos, $%(total)s\n"
+"              "
 
 #: .\shop\templates\shop\base.html:27
 msgid "Your cart is empty."
-msgstr ""
+msgstr "Su carro está vacío."
 
 #: .\shop\templates\shop\product\detail.html:21
 msgid "Add to cart"
-msgstr ""
+msgstr "Añadir al carro"
 
 #: .\shop\templates\shop\product\list.html:6
 #: .\shop\templates\shop\product\list.html:24
 msgid "Products"
-msgstr ""
+msgstr "Productos"
 
 #: .\shop\templates\shop\product\list.html:11
 msgid "Categories"
-msgstr ""
+msgstr "Categorías"
 
 #: .\shop\templates\shop\product\list.html:14
 msgid "All"
-msgstr ""
+msgstr "Todos"

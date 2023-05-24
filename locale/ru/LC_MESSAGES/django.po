@@ -23,44 +23,44 @@ msgstr ""
 #: .\cart\forms.py:9 .\cart\templates\cart\detail.html:16
 #: .\payment\templates\payment\process.html:15
 msgid "Quantity"
-msgstr ""
+msgstr "Количество"
 
 #: .\cart\templates\cart\detail.html:6 .\cart\templates\cart\detail.html:10
 msgid "Your shopping cart"
-msgstr ""
+msgstr "Корзина"
 
 #: .\cart\templates\cart\detail.html:14
 #: .\env\onlineshop\Lib\site-packages\django\db\models\fields\files.py:393
 #: .\payment\templates\payment\process.html:12
 msgid "Image"
-msgstr ""
+msgstr "Изображение товара"
 
 #: .\cart\templates\cart\detail.html:15
 #: .\payment\templates\payment\process.html:13
 msgid "Product"
-msgstr ""
+msgstr "Товар"
 
 #: .\cart\templates\cart\detail.html:17 .\cart\templates\cart\detail.html:44
 msgid "Remove"
-msgstr ""
+msgstr "Удалить"
 
 #: .\cart\templates\cart\detail.html:18
 msgid "Unit price"
-msgstr ""
+msgstr "Цена за единицу товара"
 
 #: .\cart\templates\cart\detail.html:19
 #: .\payment\templates\payment\process.html:14
 msgid "Price"
-msgstr ""
+msgstr "Цена"
 
 #: .\cart\templates\cart\detail.html:37
 msgid "Update"
-msgstr ""
+msgstr "Изменить"
 
 #: .\cart\templates\cart\detail.html:55
 #: .\payment\templates\payment\process.html:34
 msgid "Subtotal"
-msgstr ""
+msgstr "Стоимость без учета скидок"
 
 #: .\cart\templates\cart\detail.html:61
 #, python-format
@@ -69,37 +69,40 @@ msgid ""
 "                        \"%(code)s\" coupon (%(discount)s%% off)\n"
 "                    "
 msgstr ""
+"\n"
+"                        \"%(code)s\" coupon (%(discount)s%% скидка)\n"
+"                    "
 
 #: .\cart\templates\cart\detail.html:70
 #: .\payment\templates\payment\process.html:16
 #: .\payment\templates\payment\process.html:46
 msgid "Total"
-msgstr ""
+msgstr "Общая стоимость"
 
 #: .\cart\templates\cart\detail.html:78
 #: .\shop\templates\shop\product\detail.html:26
 msgid "People who bought this also bought"
-msgstr ""
+msgstr "Покупатели, кто купил этот товар покупают так же"
 
 #: .\cart\templates\cart\detail.html:90
 msgid "Apply coupon"
-msgstr ""
+msgstr "Применить купон"
 
 #: .\cart\templates\cart\detail.html:93
 msgid "Apply"
-msgstr ""
+msgstr "Применить"
 
 #: .\cart\templates\cart\detail.html:98
 msgid "Continue shopping"
-msgstr ""
+msgstr "Продолжить покупки"
 
 #: .\cart\templates\cart\detail.html:101
 msgid "Checkout"
-msgstr ""
+msgstr "Купить"
 
 #: .\coupons\forms.py:6
 msgid "Coupon"
-msgstr ""
+msgstr "Купон"
 
 #: .\env\onlineshop\Lib\site-packages\click\_termui_impl.py:496
 #, python-brace-format
@@ -1727,47 +1730,47 @@ msgstr "Испанский"
 
 #: .\payment\templates\payment\canceled.html:4
 msgid "Payment canceled"
-msgstr ""
+msgstr "Платеж отменен"
 
 #: .\payment\templates\payment\canceled.html:7
 msgid "Your payment has not been processed"
-msgstr ""
+msgstr "Ваш платеж не был обработан"
 
 #: .\payment\templates\payment\canceled.html:8
 msgid "There was a problem processing your payment"
-msgstr ""
+msgstr "Произошла ошибка в процессе оплаты"
 
 #: .\payment\templates\payment\completed.html:4
 msgid "Payment successful"
-msgstr ""
+msgstr "Успешная оплата"
 
 #: .\payment\templates\payment\completed.html:7
 msgid "Your payment was successful"
-msgstr ""
+msgstr "Ваш платеж был выполнен"
 
 #: .\payment\templates\payment\completed.html:8
 msgid "Your payment has been processed successfully"
-msgstr ""
+msgstr "Ваш платеж выполнен успешно"
 
 #: .\payment\templates\payment\process.html:5
 msgid "Pay your order"
-msgstr ""
+msgstr "Оплатить ваш заказ"
 
 #: .\payment\templates\payment\process.html:8
 msgid "Order summary"
-msgstr ""
+msgstr "Детали заказа"
 
 #: .\payment\templates\payment\process.html:53
 msgid "Pay now"
-msgstr ""
+msgstr "Оплатить сейчас"
 
 #: .\shop\templates\shop\base.html:12
 msgid "Online shop"
-msgstr ""
+msgstr "Онлайн-магазин"
 
 #: .\shop\templates\shop\base.html:18
 msgid "Your card"
-msgstr ""
+msgstr "Ваша корзина"
 
 #: .\shop\templates\shop\base.html:20
 #, python-format
@@ -1783,24 +1786,23 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
-
 #: .\shop\templates\shop\base.html:27
 msgid "Your cart is empty."
-msgstr ""
+msgstr "Ваша корзина пуста"
 
 #: .\shop\templates\shop\product\detail.html:21
 msgid "Add to cart"
-msgstr ""
+msgstr "Добавить в корзину"
 
 #: .\shop\templates\shop\product\list.html:6
 #: .\shop\templates\shop\product\list.html:24
 msgid "Products"
-msgstr ""
+msgstr "Товары"
 
 #: .\shop\templates\shop\product\list.html:11
 msgid "Categories"
-msgstr ""
+msgstr "Категории товаров"
 
 #: .\shop\templates\shop\product\list.html:14
 msgid "All"
-msgstr ""
+msgstr "Все категории"

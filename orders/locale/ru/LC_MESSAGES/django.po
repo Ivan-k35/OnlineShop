@@ -67,7 +67,7 @@ msgstr ""
 #: .\orders\templates\orders\order\create.html:27
 #: .\orders\templates\orders\order\pdf.html:54
 msgid "Total"
-msgstr "Цена"
+msgstr "Общая стоимость"
 
 #: .\orders\templates\orders\order\create.html:31
 msgid "Place order"
@@ -116,7 +116,7 @@ msgstr "Стоимость"
 
 #: .\orders\templates\orders\order\pdf.html:37
 msgid "Subtotal"
-msgstr "Цена без учета скидок"
+msgstr "Стоимость без учета скидок"
 
 #: .\orders\templates\orders\order\pdf.html:44
 #, python-format
@@ -126,7 +126,7 @@ msgid ""
 "                "
 msgstr ""
 "\n"
-"                    \"%(code)s\" coupon (%(discount)s%% скидка)\n"
+"                  Купон \"%(code)s\" (%(discount)s%% скидка)\n"
 "                "
 
 #: .\orders\templates\orders\order\pdf.html:60
