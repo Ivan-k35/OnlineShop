@@ -8,17 +8,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-24 14:31+0300\n"
-"PO-Revision-Date: 2023-05-24 14:07+0300\n"
+"POT-Creation-Date: 2023-05-26 11:01+0300\n"
+"PO-Revision-Date: 2023-05-26 11:45+0300\n"
 "Last-Translator:   <>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
-"%100>=11 && n%100<=14)? 2 : 3);\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
 "X-Translated-Using: django-rosetta 0.9.8\n"
 
 #: .\cart\forms.py:9 .\cart\templates\cart\detail.html:16
@@ -70,7 +68,7 @@ msgid ""
 "                    "
 msgstr ""
 "\n"
-"                        \"%(code)s\" coupon (%(discount)s%% скидка)\n"
+"                        \"%(code)s\" купон (%(discount)s%% скидка)\n"
 "                    "
 
 #: .\cart\templates\cart\detail.html:70
@@ -116,6 +114,23 @@ msgstr "Русский"
 msgid "Spanish"
 msgstr "Испанский"
 
+#: .\onlineshop\urls.py:11
+msgid "cart/"
+msgstr "корзина/"
+
+#: .\onlineshop\urls.py:12
+msgid "orders/"
+msgstr "заказ/"
+
+#: .\onlineshop\urls.py:13
+msgid "payment/"
+msgstr "платеж/"
+
+#: .\onlineshop\urls.py:14
+#| msgid "Coupon"
+msgid "coupons/"
+msgstr "купон/"
+
 #: .\payment\templates\payment\canceled.html:4
 msgid "Payment canceled"
 msgstr "Платеж отменен"
@@ -151,6 +166,19 @@ msgstr "Детали заказа"
 #: .\payment\templates\payment\process.html:53
 msgid "Pay now"
 msgstr "Оплатить сейчас"
+
+#: .\payment\urls.py:8
+msgid "process/"
+msgstr "обработка/"
+
+#: .\payment\urls.py:9
+msgid "completed/"
+msgstr "выполнен/"
+
+#: .\payment\urls.py:10
+#| msgid "Payment canceled"
+msgid "canceled/"
+msgstr "отменен/"
 
 #: .\shop\templates\shop\base.html:7 .\shop\templates\shop\base.html:12
 msgid "Online shop"
