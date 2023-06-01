@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-26 11:01+0300\n"
-"PO-Revision-Date: 2023-05-26 11:45+0300\n"
+"POT-Creation-Date: 2023-06-01 14:11+0300\n"
+"PO-Revision-Date: 2023-06-01 14:13+0300\n"
 "Last-Translator:   <>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -114,23 +114,6 @@ msgstr "Русский"
 msgid "Spanish"
 msgstr "Испанский"
 
-#: .\onlineshop\urls.py:11
-msgid "cart/"
-msgstr "корзина/"
-
-#: .\onlineshop\urls.py:12
-msgid "orders/"
-msgstr "заказ/"
-
-#: .\onlineshop\urls.py:13
-msgid "payment/"
-msgstr "платеж/"
-
-#: .\onlineshop\urls.py:14
-#| msgid "Coupon"
-msgid "coupons/"
-msgstr "купон/"
-
 #: .\payment\templates\payment\canceled.html:4
 msgid "Payment canceled"
 msgstr "Платеж отменен"
@@ -167,28 +150,19 @@ msgstr "Детали заказа"
 msgid "Pay now"
 msgstr "Оплатить сейчас"
 
-#: .\payment\urls.py:8
-msgid "process/"
-msgstr "обработка/"
-
-#: .\payment\urls.py:9
-msgid "completed/"
-msgstr "выполнен/"
-
-#: .\payment\urls.py:10
-#| msgid "Payment canceled"
-msgid "canceled/"
-msgstr "отменен/"
-
 #: .\shop\templates\shop\base.html:7 .\shop\templates\shop\base.html:12
 msgid "Online shop"
 msgstr "Онлайн-магазин"
 
-#: .\shop\templates\shop\base.html:18
+#: .\shop\templates\shop\base.html:17
+msgid "Language"
+msgstr "Выберете язык"
+
+#: .\shop\templates\shop\base.html:33
 msgid "Your card"
 msgstr "Ваша корзина"
 
-#: .\shop\templates\shop\base.html:20
+#: .\shop\templates\shop\base.html:35
 #, python-format
 msgid ""
 "\n"
@@ -207,7 +181,7 @@ msgstr[1] ""
 "                %(items)s товары, $%(total)s\n"
 "              "
 
-#: .\shop\templates\shop\base.html:27
+#: .\shop\templates\shop\base.html:42
 msgid "Your cart is empty."
 msgstr "Ваша корзина пуста"
 
@@ -227,3 +201,24 @@ msgstr "Категории товаров"
 #: .\shop\templates\shop\product\list.html:14
 msgid "All"
 msgstr "Все категории"
+
+#~ msgid "cart/"
+#~ msgstr "корзина/"
+
+#~ msgid "orders/"
+#~ msgstr "заказ/"
+
+#~ msgid "payment/"
+#~ msgstr "платеж/"
+
+#~ msgid "coupons/"
+#~ msgstr "купон/"
+
+#~ msgid "process/"
+#~ msgstr "обработка/"
+
+#~ msgid "completed/"
+#~ msgstr "выполнен/"
+
+#~ msgid "canceled/"
+#~ msgstr "отменен/"

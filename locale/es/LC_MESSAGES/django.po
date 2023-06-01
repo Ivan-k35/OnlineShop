@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-26 11:01+0300\n"
-"PO-Revision-Date: 2023-05-26 11:42+0300\n"
+"POT-Creation-Date: 2023-06-01 14:11+0300\n"
+"PO-Revision-Date: 2023-06-01 14:14+0300\n"
 "Last-Translator:   <>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -114,23 +114,6 @@ msgstr "Ruso"
 msgid "Spanish"
 msgstr "Español"
 
-#: .\onlineshop\urls.py:11
-msgid "cart/"
-msgstr "carro/"
-
-#: .\onlineshop\urls.py:12
-msgid "orders/"
-msgstr "pedidos/"
-
-#: .\onlineshop\urls.py:13
-msgid "payment/"
-msgstr "pago/"
-
-#: .\onlineshop\urls.py:14
-#| msgid "Coupon"
-msgid "coupons/"
-msgstr "cupon/"
-
 #: .\payment\templates\payment\canceled.html:4
 msgid "Payment canceled"
 msgstr "Pago cancelado"
@@ -167,28 +150,19 @@ msgstr "Resumen de compra"
 msgid "Pay now"
 msgstr "Pagar ahora"
 
-#: .\payment\urls.py:8
-msgid "process/"
-msgstr "procesar/"
-
-#: .\payment\urls.py:9
-msgid "completed/"
-msgstr "completado/"
-
-#: .\payment\urls.py:10
-#| msgid "Payment canceled"
-msgid "canceled/"
-msgstr "cancelado/"
-
 #: .\shop\templates\shop\base.html:7 .\shop\templates\shop\base.html:12
 msgid "Online shop"
 msgstr "Tienda online"
 
-#: .\shop\templates\shop\base.html:18
+#: .\shop\templates\shop\base.html:17
+msgid "Language"
+msgstr "Language"
+
+#: .\shop\templates\shop\base.html:33
 msgid "Your card"
 msgstr "Su carro"
 
-#: .\shop\templates\shop\base.html:20
+#: .\shop\templates\shop\base.html:35
 #, python-format
 msgid ""
 "\n"
@@ -207,7 +181,7 @@ msgstr[1] ""
 "                %(items)s productos, $%(total)s\n"
 "              "
 
-#: .\shop\templates\shop\base.html:27
+#: .\shop\templates\shop\base.html:42
 msgid "Your cart is empty."
 msgstr "Su carro está vacío."
 
@@ -227,3 +201,24 @@ msgstr "Categorías"
 #: .\shop\templates\shop\product\list.html:14
 msgid "All"
 msgstr "Todos"
+
+#~ msgid "cart/"
+#~ msgstr "carro/"
+
+#~ msgid "orders/"
+#~ msgstr "pedidos/"
+
+#~ msgid "payment/"
+#~ msgstr "pago/"
+
+#~ msgid "coupons/"
+#~ msgstr "cupon/"
+
+#~ msgid "process/"
+#~ msgstr "procesar/"
+
+#~ msgid "completed/"
+#~ msgstr "completado/"
+
+#~ msgid "canceled/"
+#~ msgstr "cancelado/"
