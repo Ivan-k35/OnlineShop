@@ -58,7 +58,7 @@
             </tr>
             <tr>
                 <td>
-                    {% blocktrans with code=order.coupon.code discount=order.discount %}
+                    {% blocktrans with code=cart.coupon.code discount=cart.coupon.discount %}
                         "{{ code }}" coupon ({{ discount }}% off)
                     {% endblocktrans %}
                 </td>

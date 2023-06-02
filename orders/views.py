@@ -10,6 +10,7 @@ from .models import OrderItem, Order
 from .forms import OrderCreateForm
 from cart.cart import Cart
 from .tasks import order_created
+from shop.recommender import Recommender
 
 
 def order_create(request):
@@ -22,10 +23,15 @@ def order_create(request):
                 order.coupon = cart.coupon
                 order.discount = cart.coupon.discount
             order.save()
+            r = Recommender()
+            products_bought_together = []
             for item in cart:
                 OrderItem.objects.create(order=order, product=item['product'],
                                          price=item['price'],
                                          quantity=item['quantity'])
+                products_bought_together.append(item['product'])
+            # add purchases to the recommendation engine
+            r.products_bought(products=products_bought_together)
             # clear the cart
             cart.clear()
             # launch asynchronous task
